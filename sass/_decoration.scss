@@ -1,3 +1,77 @@
 .decoration {
   position: absolute;
+  width: auto;
+  height: auto;
+
+  &-1 {
+    top: 0;
+    left: 43rem;
+  }
+
+  &-2 {
+    left: 40.5rem;
+    top: 2.8rem;
+  }
+
+  &-3 {
+    left: 36.8rem;
+    top: 10.7rem;
+  }
+
+  &-4 {
+    top: 15.1rem;
+    left: 43.1rem;
+  }
+
+  &-5 {
+    left: 44.7rem;
+    top: 19.9rem;
+  }
+
+  &-6 {
+    left: 48.3rem;
+    top: 24.5rem;
+  }
+
+  &-7 {
+    left: 49.5rem;
+    top: 34.9rem;
+    z-index: 1;
+  }
+
+  &-8 {
+    left: 34.1rem;
+    top: 34.7rem;
+    z-index: 1;
+  }
+
+  &-9 {
+    left: 45.1rem;
+    top: 39.3rem;
+  }
+
+  &-10 {
+    left: 93.4rem;
+    top: 47.1rem;
+  }
+
+  &-11 {
+    left: 13.2rem;
+    top: 72.1rem;
+  }
+
+  &-12 {
+    left: 0px;
+    top: 64.4rem;
+  }
+
+  &-13 {
+    left: 81.4rem;
+    top: 53.1rem;
+  }
+
+  &-14 {
+    left: 53.7rem;
+    top: 83.7rem;
+  }
 }

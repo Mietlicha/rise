@@ -120,6 +120,11 @@ body {
   opacity: 0.6;
   margin-right: 1.4rem; }
 
+#insta:hover {
+  transform: scale(1.5);
+  background: red;
+  fill: royalblue; }
+
 .btn {
   padding: 0.3rem 1rem;
   border: 1px solid #fff;
@@ -128,4 +133,50 @@ body {
   display: inline-block; }
 
 .decoration {
-  position: absolute; }
+  position: absolute;
+  width: auto;
+  height: auto; }
+  .decoration-1 {
+    top: 0;
+    left: 43rem; }
+  .decoration-2 {
+    left: 40.5rem;
+    top: 2.8rem; }
+  .decoration-3 {
+    left: 36.8rem;
+    top: 10.7rem; }
+  .decoration-4 {
+    top: 15.1rem;
+    left: 43.1rem; }
+  .decoration-5 {
+    left: 44.7rem;
+    top: 19.9rem; }
+  .decoration-6 {
+    left: 48.3rem;
+    top: 24.5rem; }
+  .decoration-7 {
+    left: 49.5rem;
+    top: 34.9rem;
+    z-index: 1; }
+  .decoration-8 {
+    left: 34.1rem;
+    top: 34.7rem;
+    z-index: 1; }
+  .decoration-9 {
+    left: 45.1rem;
+    top: 39.3rem; }
+  .decoration-10 {
+    left: 93.4rem;
+    top: 47.1rem; }
+  .decoration-11 {
+    left: 13.2rem;
+    top: 72.1rem; }
+  .decoration-12 {
+    left: 0px;
+    top: 64.4rem; }
+  .decoration-13 {
+    left: 81.4rem;
+    top: 53.1rem; }
+  .decoration-14 {
+    left: 53.7rem;
+    top: 83.7rem; }
