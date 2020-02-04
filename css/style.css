@@ -1,0 +1,128 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  width: 100vw;
+  font-family: "ff-good-headline-web-pro-ext", serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background: linear-gradient(to right, #caf2f1 50%, #eee0c9) no-repeat center/cover;
+  color: #586967; }
+
+.container {
+  max-width: 1350px;
+  margin: 3.5rem auto 0 auto; }
+
+.toggle-nav {
+  position: fixed;
+  top: 42rem;
+  right: 0;
+  width: 5rem;
+  height: 4rem;
+  background: #333d3c; }
+  .toggle-nav span {
+    width: 2.5rem;
+    height: 1px;
+    color: #fff;
+    border: 1px solid #fff;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .toggle-nav span::before {
+      content: '';
+      width: 2.5rem;
+      height: 1px;
+      color: #fff;
+      border: 1px solid #fff;
+      display: block;
+      position: absolute;
+      top: -0.5rem; }
+    .toggle-nav span::after {
+      content: '';
+      width: 2.5rem;
+      height: 1px;
+      color: #fff;
+      border: 1px solid #fff;
+      display: block;
+      position: absolute;
+      top: 0.5rem; }
+
+.upper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .upper__logo {
+    margin-left: 5rem; }
+  .upper__language {
+    font-size: 1.8rem;
+    color: #333d3c;
+    text-transform: uppercase;
+    line-height: 1.2;
+    display: flex;
+    margin-right: 5rem;
+    font-weight: 700; }
+    .upper__language--pl {
+      margin-right: 1rem; }
+
+.start {
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin-top: 15rem;
+  text-align: center;
+  position: relative;
+  height: 1000px; }
+  .start__feeling {
+    font-size: 2.4rem;
+    font-weight: 400; }
+  .start__unpack {
+    font-size: 8rem;
+    color: #333d3c; }
+  .start__scroll {
+    margin-top: 25rem;
+    letter-spacing: 0.2rem;
+    color: #333d3c; }
+  .start__line {
+    width: 1px;
+    height: 12rem;
+    border: 1px solid #333d3c;
+    margin: 1rem auto; }
+  .start__box {
+    position: absolute;
+    left: 57%;
+    transform: translateX(-57%);
+    top: 6.5rem;
+    z-index: -1; }
+  .start__box-shadow {
+    position: absolute;
+    left: 45%;
+    transform: translateX(-45%);
+    top: 50rem;
+    z-index: -2; }
+
+#insta,
+#fb {
+  opacity: 0.6;
+  margin-right: 1.4rem; }
+
+.btn {
+  padding: 0.3rem 1rem;
+  border: 1px solid #fff;
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+  display: inline-block; }

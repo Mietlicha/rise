@@ -1,0 +1,115 @@
+.toggle-nav {
+  position: fixed;
+  top: 42rem;
+  right: 0;
+  width: 5rem;
+  height: 4rem;
+  background: $main-font-color;
+
+  span {
+    width: 2.5rem;
+    height: 1px;
+    color: $white;
+    border: 1px solid $white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    &::before {
+      content: '';
+      width: 2.5rem;
+      height: 1px;
+      color: $white;
+      border: 1px solid $white;
+      display: block;
+      position: absolute;
+      top: -0.5rem;
+    }
+
+    &::after {
+      content: '';
+      width: 2.5rem;
+      height: 1px;
+      color: $white;
+      border: 1px solid $white;
+      display: block;
+      position: absolute;
+      top: 0.5rem;
+    }
+  }
+}
+
+.upper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    margin-left: 5rem;
+  }
+
+  &__language {
+    font-size: 1.8rem;
+    color: $main-font-color;
+    text-transform: uppercase;
+    line-height: 1.2;
+    display: flex;
+    margin-right: 5rem;
+    font-weight: 700;
+
+    &--pl {
+      margin-right: 1rem;
+    }
+  }
+}
+
+.start {
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin-top: 15rem;
+  text-align: center;
+  position: relative;
+  height: 1000px;
+
+  &__feeling {
+    font-size: 2.4rem;
+    font-weight: 400;
+  }
+
+  &__unpack {
+    font-size: 8rem;
+    color: $main-font-color;
+  }
+
+  &__scroll {
+    margin-top: 25rem;
+    letter-spacing: 0.2rem;
+    color: $main-font-color;
+  }
+
+  &__line {
+    width: 1px;
+    height: 12rem;
+    border: 1px solid $main-font-color;
+    margin: 1rem auto;
+  }
+
+  &__box {
+    position: absolute;
+    left: 57%;
+    transform: translateX(-57%);
+    top: 6.5rem;
+    z-index: -1;
+  }
+
+  &__box-shadow {
+    position: absolute;
+    left: 45%;
+    transform: translateX(-45%);
+    top: 50rem;
+    z-index: -2;
+  }
+}
