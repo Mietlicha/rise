@@ -204,8 +204,12 @@ body {
   background-color: #586967; }
 
 .hamburger--active {
-  transform: translateX(-50px);
+  transform: translateX(-100px);
+  background: transparent;
   z-index: 2; }
+
+.hamburger--active:hover {
+  background-color: transparent; }
 
 .hamburger__box {
   width: 25px;
@@ -237,21 +241,23 @@ body {
   top: -5px; }
 
 .hamburger__inner::after {
-  top: 5px; }
+  top: 6px; }
 
 .hamburger--active .hamburger__inner {
   background: transparent; }
 
 .hamburger--active .hamburger__inner::before {
-  transform: translateY(5px) rotate(45deg); }
+  transform: translateY(5px) rotate(45deg);
+  background: #333d3c; }
 
 .hamburger--active .hamburger__inner::after {
-  transform: translateY(-5px) rotate(-45deg); }
+  transform: translateY(-6px) rotate(-45deg);
+  background: #333d3c; }
 
 .navigation {
   height: 50vh;
   width: 200px;
-  background: #333d3c;
+  background: transparent;
   position: fixed;
   top: 42rem;
   right: 0;
@@ -263,15 +269,16 @@ body {
   .navigation__list {
     list-style: none;
     margin-top: 50px;
-    text-align: right;
+    text-align: center;
     margin-right: 40px; }
   .navigation__item {
     font-size: 3rem;
     line-height: 250%; }
     .navigation__item a {
+      color: #333d3c;
       transition: color 0.3s ease-in-out; }
     .navigation__item a:hover {
-      color: #caf2f1; }
+      color: #fff; }
 
 .navigation--active {
   transform: translateX(0); }

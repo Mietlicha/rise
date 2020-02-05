@@ -18,8 +18,13 @@
 }
 
 .hamburger--active {
-  transform: translateX(-50px);
+  transform: translateX(-100px);
+  background: transparent;
   z-index: 2;
+}
+
+.hamburger--active:hover {
+  background-color: transparent;
 }
 
 .hamburger__box {
@@ -57,7 +62,7 @@
 }
 
 .hamburger__inner::after {
-  top: 5px;
+  top: 6px;
 }
 
 .hamburger--active .hamburger__inner {
@@ -66,16 +71,18 @@
 
 .hamburger--active .hamburger__inner::before {
   transform: translateY(5px) rotate(45deg);
+  background: $main-font-color;
 }
 
 .hamburger--active .hamburger__inner::after {
-  transform: translateY(-5px) rotate(-45deg);
+  transform: translateY(-6px) rotate(-45deg);
+  background: $main-font-color;
 }
 
 .navigation {
   height: 50vh;
   width: 200px;
-  background: $main-font-color;
+  background: transparent;
   position: fixed;
   top: 42rem;
   right: 0;
@@ -89,7 +96,7 @@
     list-style: none;
     // background: red;
     margin-top: 50px;
-    text-align: right;
+    text-align: center;
     margin-right: 40px;
   }
 
@@ -98,11 +105,12 @@
     line-height: 250%;
 
     a {
+      color: $main-font-color;
       transition: color 0.3s ease-in-out;
     }
 
     a:hover {
-      color: $light-blue;
+      color: $white;
     }
   }
 }
