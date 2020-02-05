@@ -4,10 +4,7 @@
   justify-content: space-between;
   align-items: center;
   backface-visibility: none;
-
-  &__logo {
-    margin-left: 5rem;
-  }
+  padding: 0 5rem;
 
   &__language {
     font-size: 1.8rem;

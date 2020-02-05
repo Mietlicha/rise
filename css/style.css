@@ -31,9 +31,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  backface-visibility: none; }
-  .upper__logo {
-    margin-left: 5rem; }
+  backface-visibility: none;
+  padding: 0 5rem; }
   .upper__language {
     font-size: 1.8rem;
     color: #333d3c;
@@ -99,11 +98,12 @@ body {
 
 .insta:hover g,
 .fb:hover g {
-  opacity: 100%; }
+  opacity: 1; }
 
 .insta:hover path,
 .fb:hover path {
-  fill: #fff; }
+  fill: #fff;
+  opacity: 1; }
 
 .btn, .btn:link, .btn:visited {
   padding: 0.3rem 2.5rem;
@@ -130,7 +130,7 @@ body {
     top: 0;
     left: 0;
     z-index: -1;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.7s ease-in-out;
     opacity: 1; }
   .btn:hover::after, .btn:link:hover::after, .btn:visited:hover::after {
     transform: scale(1.5, 1.7);

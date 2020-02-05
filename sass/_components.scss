@@ -11,12 +11,13 @@
 
 .insta:hover g,
 .fb:hover g {
-  opacity: 100%;
+  opacity: 1;
 }
 
 .insta:hover path,
 .fb:hover path {
   fill: $white;
+  opacity: 1;
 }
 
 .btn {
@@ -53,7 +54,7 @@
       top: 0;
       left: 0;
       z-index: -1;
-      transition: all 0.4s ease-in-out;
+      transition: all 0.7s ease-in-out;
       opacity: 1;
     }
 
