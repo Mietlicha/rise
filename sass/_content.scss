@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  backface-visibility: none;
 
   &__logo {
     margin-left: 5rem;
@@ -14,11 +15,25 @@
     text-transform: uppercase;
     line-height: 1.2;
     display: flex;
+    align-items: center;
     margin-right: 5rem;
     font-weight: 700;
+    width: 20px;
 
     &--pl {
       margin-right: 1rem;
+    }
+
+    &--pl,
+    &--en {
+      width: 10px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    &--pl:hover,
+    &--en:hover {
+      cursor: pointer;
+      color: $white;
     }
   }
 }
