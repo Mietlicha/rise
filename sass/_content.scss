@@ -54,37 +54,4 @@
     color: $main-font-color;
     animation: appear 1.5s 0.2s ease-in-out both;
   }
-
-  &__scroll {
-    margin-top: 25rem;
-    letter-spacing: 0.2rem;
-    color: $main-font-color;
-  }
-
-  &__line {
-    width: 1px;
-    height: 12rem;
-    border: 1px solid $main-font-color;
-    margin: 1rem auto;
-  }
-
-  // &__box {
-  //   position: absolute;
-  //   left: 57%;
-  //   transform: translateX(-57%);
-  //   top: 6.5rem;
-  //   z-index: -1;
-  //   max-width: 100%;
-  //   height: auto;
-  // }
-
-  // &__box-shadow {
-  //   position: absolute;
-  //   left: 45%;
-  //   transform: translateX(-45%);
-  //   top: 50rem;
-  //   z-index: -2;
-  //   max-width: 100%;
-  //   height: auto;
-  // }
 }
