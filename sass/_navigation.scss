@@ -11,6 +11,10 @@
   transition: background-color 0.4s ease-in-out, transform 0.3s 0.1s ease-in-out;
   outline: none;
   z-index: 100;
+
+  @media only screen and (max-width: 550px) {
+    top: 55rem;
+  }
 }
 
 .hamburger:hover {
@@ -21,6 +25,10 @@
   transform: translateX(-100px);
   background: transparent;
   z-index: 2;
+
+  @media only screen and (max-width: 550px) {
+    transform: translateX(-50px);
+  }
 }
 
 .hamburger--active:hover {
@@ -112,9 +120,23 @@
     a:hover {
       color: $white;
     }
+
+    @media only screen and (max-width: 550px) {
+      line-height: 200%;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+    top: 55rem;
+    width: 100px;
   }
 }
 
 .navigation--active {
   transform: translateX(0);
+  width: 200px;
+
+  @media only screen and (max-width: 550px) {
+    width: 100px;
+  }
 }

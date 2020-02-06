@@ -43,7 +43,7 @@
 
   &-8 {
     left: 26.9%;
-    top: 35.7rem;
+    top: 38rem;
     z-index: 1;
   }
 
@@ -75,5 +75,29 @@
   &-14 {
     left: 39.3%;
     top: 83.7rem;
+  }
+
+  &-box {
+    left: 56.5%;
+    top: 317px;
+    top: 25%;
+    transform: translateX(-56.5%);
+    max-width: 100%;
+    height: auto;
+  }
+
+  &-box-shadow {
+    left: 45%;
+    transform: translateX(-45%);
+    top: 75rem;
+    z-index: -2;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.large-screen {
+  @media screen and (max-width: 1000px) {
+    display: none;
   }
 }

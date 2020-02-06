@@ -33,6 +33,7 @@
     cursor: pointer;
     position: relative;
     transition: transform 0.3s ease-in;
+    animation: appear 1.5s 1.2s ease-in-out both;
 
     &:hover {
       transform: translateY(-3px);
